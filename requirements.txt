@@ -2,3 +2,4 @@ numpy
 scikit-learn
 scikit-image
 tensorflow
+matplotlib

@@ -1,2 +1,5 @@
 annotations/*
 dogs/*
+venv/*
+.*
+__pycache__/*
