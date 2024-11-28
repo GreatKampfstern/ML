@@ -3,3 +3,4 @@ dogs/*
 venv/*
 .*
 __pycache__/*
+_*
