@@ -9,9 +9,15 @@ Arbeitsaufteilung:
 In diesem Bericht werden die Unterschiede in den Herangehensweisen, der Wahl der Parameter und den Methoden zwischen den beiden Notebooks analysiert. 
 Um genauere Beschreibungen für die verwendeten Funktionen und deren Funktionsweise zu erhalten, sind in den Notebooks einzelne Beschreibungen angehangen.
 
+## Auswahl der Hunderassen
+Als Hunderassen wurden der **Maltese Dog, Saluki, Kerry Blue Terrier, Schipperke** und der **Greater Swiss Mountain Dog** gewählt. Diese Rassen wurden aufgrund der unterschiedlichen Fellfarbe, -muster und -beschaffenheit, Gesichtsform, Statur und Körpereigenschaften (z.B. Ohrform) gewählt, um die Unterscheidung der Hunderassen für die KI-Modelle zu optimieren.
+
+Für die fünf weiteren Rassen für die Aufgabe 6 beim Deep Learning wurden **English Foxhound, Australian Terrier, Pomeranian, Mexiacan Hairless** und der **African Hunting Dog** gewählt, aufgrund ähnlicher Eigenschaften.
+
 ## Datenvorverarbeitung
 
 Für beide Lösungsansätze werden die Bilder durch die vorhandenen Metadaten so vorverarbeitet, dass alle Randinformationen abgeschnitten werden und der Hund formatfüllend im Bild zu erkennen ist. Dadurch werden Muster in Hintergrund seltener als Merkmale des Hundes erkannt und die Erkennung wird zuverlässiger.
+Eine Normalisierung wird nicht seperat durchgeführt, da die Bilder nach dem Einlesen bereits alle normalisiert sind.
 
 ### Deep Learning
 Für die Voreverarbeitung wurde der Ansatz der Datenaugmentation versucht. Da dieser aber bei der Evakluation schlechtere Ergebnisse erzielt hat als ohne die Verwendung dieser Vorverarbeitung, wurde auf den Einsatz verzichtet.
